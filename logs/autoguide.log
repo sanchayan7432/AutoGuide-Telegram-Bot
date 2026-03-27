@@ -1,0 +1,317 @@
+2026-03-18 18:20:43,617 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 18:21:05,544 | INFO | AutoGuideLogger | User 2087212098 started bot
+2026-03-18 18:22:05,363 | INFO | AutoGuideLogger | User 2087212098 message: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:22:05,377 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:22:09,480 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 18:22:09,898 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:22:09,899 | INFO | AutoGuideLogger | Received question: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:22:09,900 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 18:22:09,901 | DEBUG | AutoGuideLogger | Sanitized question: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:22:09,901 | DEBUG | AutoGuideLogger | Generated prompt: 
+You are an expert B.Tech Computer Science tutor.
+
+STRICT INSTRUCTIONS:
+- Answer must be between 40 and 60 words
+- Format: Numbered points
+- No extra explanation
+- Exam-oriented answer only
+
+Question:
+Explain the difference between monolithic kernel and microkernel architectures.
+
+2026-03-18 18:22:09,901 | INFO | AutoGuideLogger | Sending request to Groq API...
+2026-03-18 18:22:10,243 | ERROR | AutoGuideLogger | Groq API Error: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-18 18:22:10,285 | INFO | AutoGuideLogger | Answer generated successfully
+2026-03-18 18:22:11,019 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:24:18,623 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 18:24:36,713 | INFO | AutoGuideLogger | User 2087212098 message: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:24:36,714 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:24:40,171 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 18:24:40,543 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:24:40,544 | INFO | AutoGuideLogger | Received question: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:24:40,545 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 18:24:40,547 | DEBUG | AutoGuideLogger | Sanitized question: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:24:40,548 | DEBUG | AutoGuideLogger | Generated prompt: 
+You are an expert B.Tech Computer Science tutor.
+
+STRICT INSTRUCTIONS:
+- Answer must be between 40 and 60 words
+- Format: Numbered points
+- No extra explanation
+- Exam-oriented answer only
+
+Question:
+Explain the difference between monolithic kernel and microkernel architectures.
+
+2026-03-18 18:24:40,548 | INFO | AutoGuideLogger | Sending request to Groq API...
+2026-03-18 18:24:40,859 | ERROR | AutoGuideLogger | Groq API Error: Error code: 400 - {'error': {'message': 'The model `llama-3.1-70b-versatile` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-18 18:24:40,885 | INFO | AutoGuideLogger | Answer generated successfully
+2026-03-18 18:24:41,640 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:28:42,596 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 18:28:54,255 | INFO | AutoGuideLogger | User 2087212098 message: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:28:54,256 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:28:57,988 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 18:28:58,402 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:28:58,403 | INFO | AutoGuideLogger | Received question: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:28:58,404 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 18:28:58,406 | DEBUG | AutoGuideLogger | Sanitized question: Explain the difference between monolithic kernel and microkernel architectures.
+2026-03-18 18:28:58,407 | DEBUG | AutoGuideLogger | Generated prompt: 
+You are an expert B.Tech Computer Science tutor.
+
+STRICT INSTRUCTIONS:
+- Answer must be between 40 and 60 words
+- Format: Numbered points
+- No extra explanation
+- Exam-oriented answer only
+
+Question:
+Explain the difference between monolithic kernel and microkernel architectures.
+
+2026-03-18 18:28:58,407 | INFO | AutoGuideLogger | Trying model: llama-3.3-8b-instant
+2026-03-18 18:28:59,013 | WARNING | AutoGuideLogger | Model failed: llama-3.3-8b-instant | Error: Error code: 404 - {'error': {'message': 'The model `llama-3.3-8b-instant` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2026-03-18 18:28:59,014 | INFO | AutoGuideLogger | Trying model: mixtral-8x7b-32768
+2026-03-18 18:28:59,145 | WARNING | AutoGuideLogger | Model failed: mixtral-8x7b-32768 | Error: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-18 18:28:59,146 | INFO | AutoGuideLogger | Trying model: gemma2-9b-it
+2026-03-18 18:28:59,285 | WARNING | AutoGuideLogger | Model failed: gemma2-9b-it | Error: Error code: 400 - {'error': {'message': 'The model `gemma2-9b-it` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-18 18:28:59,286 | ERROR | AutoGuideLogger | All models failed
+2026-03-18 18:28:59,287 | DEBUG | AutoGuideLogger | Raw answer: Error: Unable to generate answer right now.
+2026-03-18 18:28:59,287 | INFO | AutoGuideLogger | Answer generated successfully
+2026-03-18 18:29:00,384 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:38:44,755 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 18:38:52,980 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of the scheduler in an operating system?
+2026-03-18 18:38:52,981 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:38:56,512 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 18:38:56,871 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:38:56,872 | INFO | AutoGuideLogger | Received question: What is the role of the scheduler in an operating system?
+2026-03-18 18:38:56,873 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 18:38:56,875 | DEBUG | AutoGuideLogger | Sanitized question: What is the role of the scheduler in an operating system?
+2026-03-18 18:38:56,875 | DEBUG | AutoGuideLogger | Generated prompt: 
+You are an expert B.Tech Computer Science tutor.
+
+STRICT INSTRUCTIONS:
+- Answer must be between 40 and 60 words
+- Format: Numbered points
+- No extra explanation
+- Exam-oriented answer only
+
+Question:
+What is the role of the scheduler in an operating system?
+
+2026-03-18 18:38:56,876 | INFO | AutoGuideLogger | Trying Groq model: llama3-8b-8192
+2026-03-18 18:38:57,216 | WARNING | AutoGuideLogger | Groq failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-18 18:38:57,217 | INFO | AutoGuideLogger | Using OpenRouter fallback...
+2026-03-18 18:38:58,670 | ERROR | AutoGuideLogger | OpenRouter Error: 'choices'
+2026-03-18 18:38:58,674 | DEBUG | AutoGuideLogger | Raw answer: Error: All AI services failed.
+2026-03-18 18:38:58,674 | INFO | AutoGuideLogger | Answer generated successfully
+2026-03-18 18:38:59,460 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:44:47,672 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 18:44:55,733 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of the scheduler in an operating system?
+2026-03-18 18:44:55,734 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:44:59,783 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-18 18:45:00,136 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:45:00,137 | INFO | AutoGuideLogger | Received question: What is the role of the scheduler in an operating system?
+2026-03-18 18:45:00,137 | INFO | AutoGuideLogger | Marks: 5
+2026-03-18 18:45:00,139 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 18:45:00,429 | WARNING | AutoGuideLogger | Groq failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-18 18:45:00,430 | INFO | AutoGuideLogger | Using OpenRouter fallback...
+2026-03-18 18:45:01,629 | DEBUG | AutoGuideLogger | OpenRouter raw response: {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct.', 'code': 404}, 'user_id': 'user_3B7TGhWR1HznlbApATJAJ5I9Pxg'}
+2026-03-18 18:45:01,629 | ERROR | AutoGuideLogger | OpenRouter API Error: {'message': 'No endpoints found for mistralai/mistral-7b-instruct.', 'code': 404}
+2026-03-18 18:45:01,633 | WARNING | AutoGuideLogger | AI failed, using fallback engine
+2026-03-18 18:45:02,388 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:49:59,661 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 18:50:16,708 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of the scheduler in an operating system?
+2026-03-18 18:50:16,709 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:50:19,428 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-18 18:50:19,801 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:50:19,802 | INFO | AutoGuideLogger | Received question: What is the role of the scheduler in an operating system?
+2026-03-18 18:50:19,802 | INFO | AutoGuideLogger | Marks: 5
+2026-03-18 18:50:19,804 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 18:50:21,327 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:50:39,662 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of the scheduler in an operating system?
+2026-03-18 18:50:39,664 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:50:43,604 | INFO | AutoGuideLogger | User 2087212098 message: 10
+2026-03-18 18:50:43,974 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:50:43,975 | INFO | AutoGuideLogger | Received question: What is the role of the scheduler in an operating system?
+2026-03-18 18:50:43,976 | INFO | AutoGuideLogger | Marks: 10
+2026-03-18 18:50:43,977 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 18:50:45,328 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:54:17,424 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 18:55:17,958 | INFO | AutoGuideLogger | User 2087212098 message: Compare preemptive scheduling and non-preemptive scheduling with examples.
+2026-03-18 18:55:17,959 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:55:21,678 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 18:55:22,046 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:55:22,047 | INFO | AutoGuideLogger | Received question: Compare preemptive scheduling and non-preemptive scheduling with examples.
+2026-03-18 18:55:22,047 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 18:55:22,048 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 18:55:23,767 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:55:44,395 | INFO | AutoGuideLogger | User 2087212098 message: Compare preemptive scheduling and non-preemptive scheduling with examples.
+2026-03-18 18:55:44,396 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:55:48,357 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-18 18:55:48,717 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:55:48,718 | INFO | AutoGuideLogger | Received question: Compare preemptive scheduling and non-preemptive scheduling with examples.
+2026-03-18 18:55:48,720 | INFO | AutoGuideLogger | Marks: 5
+2026-03-18 18:55:48,721 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 18:55:49,975 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:55:57,839 | INFO | AutoGuideLogger | User 2087212098 message: Compare preemptive scheduling and non-preemptive scheduling with examples.
+2026-03-18 18:55:57,840 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 18:56:01,244 | INFO | AutoGuideLogger | User 2087212098 message: 10
+2026-03-18 18:56:01,603 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 18:56:01,604 | INFO | AutoGuideLogger | Received question: Compare preemptive scheduling and non-preemptive scheduling with examples.
+2026-03-18 18:56:01,608 | INFO | AutoGuideLogger | Marks: 10
+2026-03-18 18:56:01,609 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 18:56:02,883 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 18:57:41,194 | INFO | AutoGuideLogger | User 7504780387 started bot
+2026-03-18 18:57:53,946 | INFO | AutoGuideLogger | User 7504780387 message: What is IOT
+2026-03-18 18:57:53,947 | DEBUG | AutoGuideLogger | Stored question for user 7504780387
+2026-03-18 18:57:59,614 | INFO | AutoGuideLogger | User 7504780387 message: 2
+2026-03-18 18:57:59,978 | INFO | AutoGuideLogger | Processing question for user 7504780387
+2026-03-18 18:57:59,979 | INFO | AutoGuideLogger | Received question: What is IOT
+2026-03-18 18:57:59,979 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 18:57:59,980 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 18:58:01,076 | INFO | AutoGuideLogger | Response sent to user 7504780387
+2026-03-18 18:58:22,873 | INFO | AutoGuideLogger | User 7504780387 message: 10
+2026-03-18 18:58:22,874 | DEBUG | AutoGuideLogger | Stored question for user 7504780387
+2026-03-18 19:01:24,029 | INFO | AutoGuideLogger | User 2087212098 message: how to fuck
+2026-03-18 19:01:24,030 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 19:01:28,249 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-18 19:01:28,623 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 19:01:28,624 | INFO | AutoGuideLogger | Received question: how to fuck
+2026-03-18 19:01:28,625 | INFO | AutoGuideLogger | Marks: 5
+2026-03-18 19:01:28,626 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 19:01:29,556 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 19:02:16,762 | INFO | AutoGuideLogger | User 2087212098 message: Explain paging and segmentation in memory management.
+2026-03-18 19:02:16,763 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 19:02:25,056 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-18 19:02:25,802 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 19:02:25,803 | INFO | AutoGuideLogger | Received question: Explain paging and segmentation in memory management.
+2026-03-18 19:02:25,804 | INFO | AutoGuideLogger | Marks: 5
+2026-03-18 19:02:25,805 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 19:02:27,242 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 19:04:43,416 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 19:04:59,708 | INFO | AutoGuideLogger | User 2087212098 message: How does an OS enforce user authentication and authorization?
+2026-03-18 19:04:59,708 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 19:05:03,309 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 19:05:03,725 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 19:05:03,726 | INFO | AutoGuideLogger | Received question: How does an OS enforce user authentication and authorization?
+2026-03-18 19:05:03,726 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 19:05:03,727 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 19:05:05,142 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 19:05:11,352 | INFO | AutoGuideLogger | User 2087212098 message: How does an OS enforce user authentication and authorization?
+2026-03-18 19:05:11,353 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 19:05:14,560 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-18 19:05:14,928 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 19:05:14,928 | INFO | AutoGuideLogger | Received question: How does an OS enforce user authentication and authorization?
+2026-03-18 19:05:14,928 | INFO | AutoGuideLogger | Marks: 5
+2026-03-18 19:05:14,928 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 19:05:15,990 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 19:05:22,159 | INFO | AutoGuideLogger | User 2087212098 message: How does an OS enforce user authentication and authorization?
+2026-03-18 19:05:22,159 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 19:05:28,370 | INFO | AutoGuideLogger | User 2087212098 message: 10
+2026-03-18 19:05:29,126 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 19:05:29,127 | INFO | AutoGuideLogger | Received question: How does an OS enforce user authentication and authorization?
+2026-03-18 19:05:29,127 | INFO | AutoGuideLogger | Marks: 10
+2026-03-18 19:05:29,127 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 19:05:30,379 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 20:35:42,750 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of encryption in operating system security?
+2026-03-18 20:35:42,750 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 20:35:45,553 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 20:35:45,960 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 20:35:45,961 | INFO | AutoGuideLogger | Received question: What is the role of encryption in operating system security?
+2026-03-18 20:35:45,961 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 20:35:45,961 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 20:35:47,282 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 20:37:32,986 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-18 20:37:35,792 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of encryption in operating system security?
+2026-03-18 20:37:35,792 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 20:37:53,021 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of encryption in operating system security?
+2026-03-18 20:37:53,022 | WARNING | AutoGuideLogger | Invalid marks from user 2087212098: What is the role of encryption in operating system security?
+2026-03-18 20:37:58,449 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 20:37:58,804 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 20:37:58,805 | INFO | AutoGuideLogger | Received question: What is the role of encryption in operating system security?
+2026-03-18 20:37:58,806 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 20:37:58,806 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 20:38:00,185 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 20:38:03,924 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of encryption in operating system security?
+2026-03-18 20:38:03,924 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 20:38:07,406 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-18 20:38:07,792 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 20:38:07,792 | INFO | AutoGuideLogger | Received question: What is the role of encryption in operating system security?
+2026-03-18 20:38:07,792 | INFO | AutoGuideLogger | Marks: 5
+2026-03-18 20:38:07,792 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 20:38:08,942 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 20:38:18,966 | INFO | AutoGuideLogger | User 2087212098 message: What is the role of encryption in operating system security?
+2026-03-18 20:38:18,966 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 20:38:25,035 | INFO | AutoGuideLogger | User 2087212098 message: 10
+2026-03-18 20:38:25,759 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 20:38:25,759 | INFO | AutoGuideLogger | Received question: What is the role of encryption in operating system security?
+2026-03-18 20:38:25,759 | INFO | AutoGuideLogger | Marks: 10
+2026-03-18 20:38:25,760 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 20:38:27,064 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-18 21:58:01,109 | INFO | AutoGuideLogger | User 2087212098 message: How to use engineering in makinh sex toy
+2026-03-18 21:58:01,109 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-18 21:58:03,947 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-18 21:58:04,294 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-18 21:58:04,295 | INFO | AutoGuideLogger | Received question: How to use engineering in makinh sex toy
+2026-03-18 21:58:04,295 | INFO | AutoGuideLogger | Marks: 2
+2026-03-18 21:58:04,295 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-18 21:58:05,212 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-19 00:18:11,751 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-19 00:18:14,044 | INFO | AutoGuideLogger | User 2087212098 message: hi
+2026-03-19 00:18:14,044 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-19 00:18:22,501 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-19 00:18:23,202 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-19 00:18:23,202 | INFO | AutoGuideLogger | Received question: hi
+2026-03-19 00:18:23,202 | INFO | AutoGuideLogger | Marks: 2
+2026-03-19 00:18:23,203 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-19 00:18:24,240 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-19 00:32:42,631 | INFO | AutoGuideLogger | User 2087212098 message: Describe the concept of virtual memory and why it is important.
+2026-03-19 00:32:42,631 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-19 00:32:45,490 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-19 00:32:45,848 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-19 00:32:45,848 | INFO | AutoGuideLogger | Received question: Describe the concept of virtual memory and why it is important.
+2026-03-19 00:32:45,848 | INFO | AutoGuideLogger | Marks: 2
+2026-03-19 00:32:45,848 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-19 00:32:47,308 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-19 00:32:56,583 | INFO | AutoGuideLogger | User 2087212098 message: Describe the concept of virtual memory and why it is important.
+2026-03-19 00:32:56,584 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-19 00:32:59,829 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-19 00:33:00,207 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-19 00:33:00,208 | INFO | AutoGuideLogger | Received question: Describe the concept of virtual memory and why it is important.
+2026-03-19 00:33:00,208 | INFO | AutoGuideLogger | Marks: 5
+2026-03-19 00:33:00,208 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-19 00:33:01,502 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-19 00:33:05,306 | INFO | AutoGuideLogger | User 2087212098 message: Describe the concept of virtual memory and why it is important.
+2026-03-19 00:33:05,306 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-19 00:33:08,321 | INFO | AutoGuideLogger | User 2087212098 message: 10
+2026-03-19 00:33:08,678 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-19 00:33:08,679 | INFO | AutoGuideLogger | Received question: Describe the concept of virtual memory and why it is important.
+2026-03-19 00:33:08,679 | INFO | AutoGuideLogger | Marks: 10
+2026-03-19 00:33:08,679 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-19 00:33:09,843 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-19 00:33:22,867 | INFO | AutoGuideLogger | User 2087212098 message: What are system calls? Give examples of commonly used ones.
+2026-03-19 00:33:22,867 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-19 00:33:26,055 | INFO | AutoGuideLogger | User 2087212098 message: 5
+2026-03-19 00:33:26,489 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-19 00:33:26,489 | INFO | AutoGuideLogger | Received question: What are system calls? Give examples of commonly used ones.
+2026-03-19 00:33:26,489 | INFO | AutoGuideLogger | Marks: 5
+2026-03-19 00:33:26,489 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-19 00:33:27,605 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-19 09:01:18,713 | INFO | AutoGuideLogger | Groq client initialized successfully
+2026-03-19 09:02:24,027 | INFO | AutoGuideLogger | User 2087212098 message: how to use computer science in sex
+2026-03-19 09:02:24,028 | DEBUG | AutoGuideLogger | Stored question for user 2087212098
+2026-03-19 09:02:28,128 | INFO | AutoGuideLogger | User 2087212098 message: 2\
+2026-03-19 09:02:28,128 | WARNING | AutoGuideLogger | Invalid marks from user 2087212098: 2\
+2026-03-19 09:02:47,682 | INFO | AutoGuideLogger | User 2087212098 message: 2
+2026-03-19 09:02:48,368 | INFO | AutoGuideLogger | Processing question for user 2087212098
+2026-03-19 09:02:48,368 | INFO | AutoGuideLogger | Received question: how to use computer science in sex
+2026-03-19 09:02:48,369 | INFO | AutoGuideLogger | Marks: 2
+2026-03-19 09:02:48,369 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-19 09:02:49,794 | INFO | AutoGuideLogger | Response sent to user 2087212098
+2026-03-19 21:46:26,229 | INFO | AutoGuideLogger | User 7504780387 message: What is AI
+2026-03-19 21:46:26,231 | DEBUG | AutoGuideLogger | Stored question for user 7504780387
+2026-03-19 21:46:30,734 | INFO | AutoGuideLogger | User 7504780387 message: 10
+2026-03-19 21:46:31,096 | INFO | AutoGuideLogger | Processing question for user 7504780387
+2026-03-19 21:46:31,096 | INFO | AutoGuideLogger | Received question: What is AI
+2026-03-19 21:46:31,096 | INFO | AutoGuideLogger | Marks: 10
+2026-03-19 21:46:31,097 | INFO | AutoGuideLogger | Trying Groq model...
+2026-03-19 21:46:32,323 | INFO | AutoGuideLogger | Response sent to user 7504780387
