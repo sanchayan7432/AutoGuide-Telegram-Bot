@@ -55,6 +55,6 @@ Get structured answer
 ---
 
 ## 🚀 Author
-```
+
 Sanchayan Ghosh. Email me at sanchayan.ghosh2022@uem.edu.in
-```
+
